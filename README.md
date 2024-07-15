@@ -1,6 +1,6 @@
 # Project Summary
 
-## Application: A Captivating Airbnb Experience Clone ##
+## Application: A Captivating Airbnb Clone ##
 
 * This React project is a visually stunning and highly interactive clone of the popular Airbnb website.
 * Designed to captivate users and provide an immersive experience. 
