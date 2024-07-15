@@ -2,6 +2,8 @@
 
 ## Application: A Captivating Airbnb Clone ##
 
+Deploy: [Click Me](https://airbnb-clone-evas-projects.netlify.app/)
+
 * This React project is a visually stunning and highly interactive clone of the popular Airbnb website.
 * Designed to captivate users and provide an immersive experience. 
 * With its sleek and modern styling, this project showcases the power of React in creating dynamic and responsive user interfaces.
