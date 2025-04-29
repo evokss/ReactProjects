@@ -1,4 +1,18 @@
-export default [
+export interface CardItem {
+    id: number;
+    title: string;
+    description: string;
+    price: number;
+    coverImg: string;
+    stats: {
+      rating: number;
+      reviewCount: number;
+    };
+    location: string;
+    openSpots: number;
+  }
+
+const data: CardItem[] = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
@@ -39,3 +53,5 @@ export default [
         openSpots: 3,
     }
 ]
+
+export default data;
