@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
     <section className="hero">
-      <img src="./photo-grid.png" className="hero--photo" />
+      <img src="./photo-grid.png" className="hero--photo" alt="Photo grid of experiences" />
       <h1 className="hero--header">Online Experiences</h1>
       <p className="hero--text">
         Join unique interactive activities led by one-of-a-kind hosts—all
@@ -12,3 +12,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default Hero;
