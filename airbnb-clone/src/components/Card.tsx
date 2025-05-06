@@ -18,7 +18,7 @@ const Card:React.FC<CardProps> = ({item}) => {
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={`./${item.coverImg}`} className="card--image" alt={item.title} />
       <div className="card--stats">
-        <img src="./star.png" className="card--star" />
+        <img src="./star.png" className="card--star" alt="star rating" />
         <span>&nbsp;{item.stats.rating}</span>
         <span className="gray">
           &nbsp;({item.stats.reviewCount})&nbsp;•&nbsp;
